@@ -141,7 +141,7 @@ body{
 @media only screen and (max-width: 480px) {
   
   .card-container{
-    padding-top: 40px;
+    padding-top: 0px;
   }
   
   .card{
@@ -180,10 +180,6 @@ body{
     padding: 10px;
     height: 70px;
   }
-
-  /* .card-section_1 img{
-    height: 45px;
-  } */
 
   .h5-p-tag{
     margin-left: 0;
