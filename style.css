@@ -145,7 +145,7 @@ body{
   }
   
   .card{
-    width: 350px;
+    width: 80%;
     border-radius: 20px;
     background:white;
     box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.1);
