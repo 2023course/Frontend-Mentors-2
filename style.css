@@ -167,10 +167,10 @@ body{
     text-align: center;
   }
 
-  .card-body h3{
-    font-size: 25px;
+  /* .card-body h3{
+    font-size: 32px;
     padding: 20px 0 15px 0;
-  }
+  } */
 
   .card-body p{
     font-size: .9rem;
