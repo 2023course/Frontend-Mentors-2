@@ -207,7 +207,8 @@ body{
    
     background-position: center;
     background-size:cover; 
-    background-color: hsl(108, 42%, 43%);
+    /* background-color: hsl(108, 42%, 43%); */
+    background-color: #000;
   }
 
 }
