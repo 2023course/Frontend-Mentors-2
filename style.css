@@ -141,11 +141,11 @@ body{
 @media only screen and (max-width: 480px) {
   
   .card-container{
-    padding-top: 0px;
+    padding-top: 50px;
   }
   
   .card{
-    width: 85%;
+    width: 350px;
     border-radius: 20px;
     background:white;
     box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.1);
