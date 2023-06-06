@@ -171,12 +171,12 @@ body{
   }
 
   .card-body h3{
-    font-size: 25px;
+    font-size: 16px;
     padding: 20px 0 15px 0;
   }
 
   .card-body p{
-    font-size: .9rem;
+    font-size: .5rem;
   }
 
   .card-button{
