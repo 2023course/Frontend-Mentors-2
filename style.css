@@ -145,7 +145,7 @@ body{
   }
   
   .card{
-    width: 300px;
+    width: 350px;
     border-radius: 20px;
     background:white;
     box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.1);
@@ -168,7 +168,7 @@ body{
   }
 
   .card-body h3{
-    font-size: 16px;
+    font-size: 25px;
     padding: 20px 0 15px 0;
   }
 
