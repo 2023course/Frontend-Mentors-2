@@ -138,17 +138,17 @@ body{
 }
 
 /* Media Query For Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 380px) {
   
   .card-container{
     display: flex;
-    /* padding-top: 2%; */
+    padding-top: 3%;
     justify-content: center;
     align-items: center;
   }
   
   .card{
-    width: 85%;
+    width: 75%;
     border-radius: 20px;
     background:white;
     box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.1);
