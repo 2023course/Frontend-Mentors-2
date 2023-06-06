@@ -47,8 +47,8 @@ body{
 }
 
 .card-body h3{
-  font-size: 25px;
-  padding: 20px 0 0 0;
+  font-size: 32px;
+  padding: 20px 0 15px 0;
   color: hsl(224, 23%, 23%);
   font-weight: 900;
 }
@@ -94,14 +94,14 @@ body{
   font-weight: 700;
 }
 
-.card-footer{
+.card-button{
   padding: 15px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.card-footer button{
+.card-button button{
   font-weight: 700;
   background :rgb(56, 41, 224);
   color: #fff;
@@ -114,11 +114,11 @@ body{
   transition: all .6s;
 }
 
-.card-footer button:hover{
+.card-button button:hover{
   box-shadow: 0 10px 20px 0 rgba(56,41, 224,.4);
 }
 
-.card-footer a{
+.card-button a{
   text-align: center;
   margin: 20px;
   color: hsl(224, 23%, 55%);
@@ -137,12 +137,50 @@ body{
   font-size: 14px;
 }
 
-/* Media Query For Desktop */
-@media only screen and (min-width: 1200px) {
-	/* header */
-	
-}
-
-@media (max-width: 375px) {
+/* Media Query For Mobile */
+@media only screen and (max-width: 375px) {
   
+  .card-container{
+    display: flex;
+    /* padding-top: 2%; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card{
+    width: 85%;
+    border-radius: 20px;
+    background:white;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.1);
+  }
+
+  .card-top{
+    background-image: url("./images/illustration-hero.svg");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 150px; 
+  }
+
+  .card-body{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .card-body p{
+    font-size: .9rem;
+  }
+
+  .card-button{
+    padding: 10px 0 0 0;
+  }
+
+  .card-button button{
+    border-radius: 10px;
+    margin: 5px 20px 5px 20px;
+  }
+
 }
