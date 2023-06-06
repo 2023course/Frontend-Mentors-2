@@ -140,12 +140,9 @@ body{
 /* Media Query For Mobile */
 @media only screen and (max-width: 480px) {
   
-  /* .card-container{
-    display: flex;
+  .card-container{
     padding-top: 3%;
-    justify-content: center;
-    align-items: center;
-  } */
+  }
   
   .card{
     width: 300px;
@@ -176,7 +173,7 @@ body{
   }
 
   .card-body p{
-    font-size: .5rem;
+    font-size: .9rem;
   }
 
   .card-button{
