@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: hsl(225, 100%, 94%);
+  /* background-color: hsl(225, 100%, 94%); */
 }
 main{
   background-image: url("./images/pattern-background-desktop.svg");
@@ -208,10 +208,12 @@ main{
 
   main{
     background-image: none;
-    background-color: hsl(225, 100%, 94%);
+    /* background-color: hsl(225, 100%, 94%); */
+    background-color: hsl(182, 89%, 45%);
     background-position: right 80px;
     background-size: 100%; 
     background-repeat: no-repeat;
+    height: 100vh;
   }
 
 }
