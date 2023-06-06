@@ -203,4 +203,11 @@ body{
     margin: 5px 20px 5px 20px;
   }
 
+  body{
+   
+    background-position: center;
+    background-size:cover; 
+    background-color: hsl(108, 42%, 43%);
+  }
+
 }
