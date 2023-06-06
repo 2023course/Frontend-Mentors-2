@@ -138,7 +138,7 @@ body{
 }
 
 /* Media Query For Mobile */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 700px) {
   
   .card-container{
     display: flex;
@@ -148,7 +148,7 @@ body{
   }
   
   .card{
-    width: 300px;
+    width: 200px;
     border-radius: 20px;
     background:white;
     box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.1);
