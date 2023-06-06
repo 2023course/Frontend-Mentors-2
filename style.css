@@ -207,7 +207,7 @@ body{
   body{
     background-image: url("./images/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
-    background-position: right 0px;
+    background-position: right 10px;
   }
 
 }
