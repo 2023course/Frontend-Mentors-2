@@ -142,7 +142,7 @@ body{
 @media only screen and (max-width: 480px) {
   
   .card-container{
-    padding-top: 70px;
+    padding-top: 100px;
   }
   
   .card{
@@ -206,12 +206,7 @@ body{
 
   body{
     background-image: none;
-    /* background-color: hsl(225, 100%, 94%); */
-    background-color: hsl(182, 89%, 45%);
-    background-position: right 80px;
-    background-size: 100%; 
-    background-repeat: no-repeat;
-   
+    background-color: hsl(225, 100%, 94%);
   }
 
 }
